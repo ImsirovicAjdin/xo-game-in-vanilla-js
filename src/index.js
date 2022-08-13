@@ -52,10 +52,10 @@ function checkLines() {
       box1.style.background = "tomato";
       box2.style.background = "tomato";
       box3.style.background = "tomato";
+      stopClicks();
     }
   });
 
-  stopClicks();
 }
 
 function stopClicks() {

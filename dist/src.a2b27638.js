@@ -157,9 +157,9 @@ function checkLines() {
       box1.style.background = "tomato";
       box2.style.background = "tomato";
       box3.style.background = "tomato";
+      stopClicks();
     }
   });
-  stopClicks();
 }
 
 function stopClicks() {
@@ -205,7 +205,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38197" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45061" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
